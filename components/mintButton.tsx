@@ -543,7 +543,13 @@ export function ButtonList({
     <Box key={index} marginTop={"20px"}>
       <Divider my="10px" />
       <HStack>
-        <Heading size="xs" textTransform="uppercase">
+        <Heading
+          as="h2"
+          size="lg"
+          mb={4}
+          color="white"
+          textShadow="0px 0px 10px purple"
+        >
           {buttonGuard.header}
         </Heading>
         <Flex justifyContent="flex-end" marginLeft="auto">
@@ -580,7 +586,13 @@ export function ButtonList({
         </Flex>
       </HStack>
       <SimpleGrid columns={2} spacing={5}>
-        <Text pt="2" fontSize="sm">
+        <Text
+          as="h2"
+          size="lg"
+          mb={4}
+          color="white"
+          textShadow="0px 0px 10px purple"
+        >
           {buttonGuard.mintText}
         </Text>
         <VStack>
@@ -621,9 +633,15 @@ export function ButtonList({
                   setCheckEligibility
                 )
               }
+              boxShadow="0px 0px 10px green"
+              _hover={{
+                boxShadow:
+                  "0px 0px 20px green, 0px 0px 30px rgba(255, 255, 255, 0.7)",
+                transform: "scale(1.05)",
+                transition: "all 0.2s",
+              }}
+              colorScheme="green"
               key={buttonGuard.label}
-              size="sm"
-              backgroundColor="teal.100"
               isDisabled={!buttonGuard.allowed}
               isLoading={
                 guardList.find((elem) => elem.label === buttonGuard.label)
