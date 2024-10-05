@@ -7,7 +7,7 @@ import { useMemo } from "react";
 import { UmiProvider } from "../utils/UmiProvider";
 import "@/styles/globals.css";
 import "@solana/wallet-adapter-react-ui/styles.css";
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { image, headerText } from 'settings'
 import { SolanaTimeProvider } from "@/utils/SolanaTimeContext";
 
@@ -26,6 +26,16 @@ export default function App({ Component, pageProps }: AppProps) {
     ],
     []
   );
+  const theme = extendTheme({
+    styles: {
+      global: {
+        body: {
+          bg: "linear-gradient(to bottom right, purple.900, green.900)",
+          color: "white",
+        },
+      },
+    },
+  });
   return (
     <>
       <Head>
@@ -45,7 +55,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>{headerText}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ChakraProvider>
+      <ChakraProvider theme={theme}>
         <WalletProvider wallets={wallets}>
           <UmiProvider endpoint={endpoint}>
             <WalletModalProvider>
@@ -55,7 +65,7 @@ export default function App({ Component, pageProps }: AppProps) {
             </WalletModalProvider>
           </UmiProvider>
         </WalletProvider>
-      </ChakraProvider>
+      </ChakraProvider >
     </>
   );
 }
