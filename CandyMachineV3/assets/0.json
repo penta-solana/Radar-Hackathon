@@ -1,0 +1,20 @@
+{
+  "name": "sugarTest000",
+  "symbol": "SGT",
+  "description": "This is sugar test 000",
+  "image": "0.png",
+  "attributes": [
+    {
+      "trait_type": "Number",
+      "value": "0"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "0.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
