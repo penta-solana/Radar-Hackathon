@@ -1,0 +1,20 @@
+{
+  "name": "Music Rights 0001",
+  "symbol": "MUSIC",
+  "description": "This is a music rights NFT collection 1",
+  "image": "1.png",
+  "attributes": [
+    {
+      "trait_type": "Number",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}

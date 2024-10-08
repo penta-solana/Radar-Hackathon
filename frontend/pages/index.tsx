@@ -271,7 +271,7 @@ export default function Home() {
             bgGradient="linear(to-r, purple.400, green.400)"
             bgClip="text"
           >
-            Penta NFT Sale
+            Music rights Sale
           </Heading>
           <Flex minWidth="max-content" alignItems="center" gap="2">
             {loading ? (

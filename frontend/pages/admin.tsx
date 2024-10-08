@@ -22,11 +22,11 @@ import {
 import { Music, Zap } from "lucide-react";
 
 const NFT_IMAGES = [
-  "/placeholder.svg?height=100&width=100",
-  "/placeholder.svg?height=100&width=100",
-  "/placeholder.svg?height=100&width=100",
-  "/placeholder.svg?height=100&width=100",
-  "/placeholder.svg?height=100&width=100",
+  "1.webp",
+  "2.webp",
+  "3.webp",
+  "4.webp",
+  "5.webp",
 ];
 
 export default function NFTMusicApp() {
@@ -67,7 +67,7 @@ export default function NFTMusicApp() {
           bgGradient="linear(to-r, purple.400, green.400)"
           bgClip="text"
         >
-          NFT Music Collection
+          Profit Distribution
         </Heading>
 
         <VStack spacing={8} align="stretch">

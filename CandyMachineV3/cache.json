@@ -1,0 +1,34 @@
+{
+  "program": {
+    "candyMachine": "5hW4PqqZzuPoRXcpbjoiHgdfTBWtkNKTBxYBCXzf4rV6",
+    "candyGuard": "AU14qnyLC36pMQk1PmzPc9DH9WFdTTWYfxxWUys5DK1A",
+    "candyMachineCreator": "GBKgp7hTp6TfmEDkoHbZcXk6ZYYBgSCxRB9Ni9n2quat",
+    "collectionMint": "5D6acvUoobtc3VzaM7H3tBre7pJyq39YVFCTFws6SDop"
+  },
+  "items": {
+    "-1": {
+      "name": "MusicRightsNFT",
+      "image_hash": "f1caf0622aa5230336ae5e7592ca95749ff54a54a8ad5ef904739a0483d76b94",
+      "image_link": "https://gateway.irys.xyz/8VV4qD7NTqP5vxcu3Dd5Y2P74TVkSP1Y48HnhF79YYTe?ext=png",
+      "metadata_hash": "e36f4c777602896b46d54c222d54e58575f22566af0e9e82550e16c14c520ff8",
+      "metadata_link": "https://gateway.irys.xyz/4KEavswdra3xZAN61dQEhWvzTyQcUGJKJc8fdxGDCQAE",
+      "onChain": true
+    },
+    "0": {
+      "name": "Music Rights 0000",
+      "image_hash": "0d394353ba3e0e9cc4a4a6df14e09b3392a862f5f7b59838ea885b846d62c463",
+      "image_link": "https://gateway.irys.xyz/5qN28xCXcpX3J9VUDJWEXt2dPBpjdhEQi2Ka8DFENMHn?ext=png",
+      "metadata_hash": "1e0c710d4cdb0b7f9b845fa04866eabc6b20697aff2adce2af1da0fa4dd2183a",
+      "metadata_link": "https://gateway.irys.xyz/ERZoaRoQnyzZupCSfmyoq1prkGjLZhUP4RA2BQHVUS7Z",
+      "onChain": true
+    },
+    "1": {
+      "name": "Music Rights 0001",
+      "image_hash": "ffdb3abf095d94a7c52d52d78134b9ffe3f010620cf40e1eea12d1f718bec949",
+      "image_link": "https://gateway.irys.xyz/FzHniFjF8UanhmjdYWMzscwg2HHrLHz1SUpDM5VDsTZ5?ext=png",
+      "metadata_hash": "fc2be777be732c27feecc418e06a3522c23e69c79140792d8c8e3c851c309636",
+      "metadata_link": "https://gateway.irys.xyz/8F4tcAht86rDrqivQ1wKbLgc4N7MFa7ZmgbroUZFPYZW",
+      "onChain": true
+    }
+  }
+}
