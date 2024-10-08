@@ -8,7 +8,7 @@ export const mintText = [
 ];
 
 //header image in the ui. replace with your own
-export const image = "penta.png";
+export const image = "4.webp";
 
 //website title
 export const headerText = "Penta NFT Sale";

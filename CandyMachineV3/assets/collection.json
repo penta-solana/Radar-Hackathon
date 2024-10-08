@@ -1,7 +1,7 @@
 {
-  "name": "sugarTestCollection",
-  "symbol": "SGT",
-  "description": "This is sugar test collection",
+  "name": "MusicRightsNFT",
+  "symbol": "MUSIC",
+  "description": "This is a music rights NFT collection",
   "image": "collection.png",
   "attributes": [],
   "properties": {

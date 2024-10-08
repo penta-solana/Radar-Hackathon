@@ -1,7 +1,7 @@
 {
   "tokenStandard": "nft",
   "number": 2,
-  "symbol": "SGT",
+  "symbol": "MUSIC",
   "sellerFeeBasisPoints": 500,
   "isMutable": true,
   "isSequential": false,
@@ -20,15 +20,15 @@
   "pinataConfig": null,
   "hiddenSettings": null,
   "guards": {
-        "default": {
-          "solPayment": {
-            "value": 0.1,
-            "destination": "4VuvFzEVaZxF9sZQA8tZiLoQJcC2YtgWNyPmtND4yiCN"
-          },
-          "startDate": {
-            "date": "2022-10-23T20:00:00Z"
-          }
-        }
-      }  ,
+    "default": {
+      "solPayment": {
+        "value": 0.1,
+        "destination": "4VuvFzEVaZxF9sZQA8tZiLoQJcC2YtgWNyPmtND4yiCN"
+      },
+      "startDate": {
+        "date": "2022-10-23T20:00:00Z"
+      }
+    }
+  },
   "maxEditionSupply": null
 }
